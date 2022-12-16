@@ -1,14 +1,30 @@
 #include "main.h"
 
 /**
- * main - checks the code
- * Return: Always 0
+ * print_triangle -prints a triangle of squares according parameter
+ * @size: The size of the squares triangle
+ * Return: empty
  */
-int main(void)
+void print_triangle(int size);
+
 {
-	print_triangle(2);
-	print_triangle(10);
-	print_triangle(1);
-	print_triangle(0);
-	return (0);
+	int x, y, z;
+
+	if (size <= 0)
+	{
+	_putchar('\n');
+	}
+	else
+	{
+	for (x = 0; x < size; x++)
+	}
+	for (y = size - x; y > 1; y--)
+	{
+	_putchar(32);
+	}
+	for (z = 0; z <= x; z++)
+	{
+	_putchar(35);
+	}
+	_putchar('\n');
 }
