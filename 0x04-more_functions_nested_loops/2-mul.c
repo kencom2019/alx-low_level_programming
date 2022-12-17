@@ -9,11 +9,5 @@
 */
 int mul(int a, int b);
 {
-	int a, b, mul;
-
-	printf("Enter the value of two numbers");
-	scanf("%d %d", &a, &b);
-	mul = a * b
-	printf("%d", mul)
-	return (0);
+	return (a * b);
 }
