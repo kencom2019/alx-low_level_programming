@@ -1,4 +1,4 @@
-#includec "main.h"
+#include "main.h"
 
 /**
  * print_line - prints straight line is printed.
@@ -24,5 +24,6 @@ void print_diagonal(int n)
 	_putchar('\n');
 	}
 	}
+	_putchar('\n');
 
 }
