@@ -5,7 +5,7 @@
 * Fizz is printed in place of the no,
 * Buzz in place of multiples
 * of 5 and FizzBuzz for both five and three
-* 
+*
 *Return: Always 0;
 */
 
