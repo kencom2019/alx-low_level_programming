@@ -4,13 +4,25 @@
  * print_line - prints straight line is printed.
  * @n: no return.
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
-	int i;
+	int line, gap;
 
-	for (i = 0; i < n; i++)
+	if (n > 0)
 	{
-		_putchar(95);
+	for (line = 0; line <= n; line++)
+	{
+	for (gap = 0; gap <= line; gap++)
+	{
+	_putchar(' ');
+	}
+	_putchar('\\');
+	if (line == n - 1)
+	{
+	continue;
+	}
+	_putchar('\n');
+	}
 	}
 	_putchar('\n');
 }
