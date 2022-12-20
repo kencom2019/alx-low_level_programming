@@ -5,7 +5,7 @@ include "main.h"
  *@str: input
  *Return: half of input
  */
-void puts_half(char *str)
+void puts_half(char *str);
 {
 	int a, n, longi;
 
