@@ -2,7 +2,7 @@
 
 /**
  * _strncat - concatinates two string at most inserted number
- * @best: The string to be appended
+ * @dest: The string to be appended
  * @src: The string to be appended to dest
  * @n: the number of bytes from src to be appended to dest.
  */
