@@ -4,21 +4,20 @@
 /**
  * sum_them_all - returns the sum of all its parameter.
  * @n: amount of the arguments
- *
- * Return: sum of its parameter
+ * @...: Avariable number of parameters to calculate the sum of  all
+ * Return: If n == 0, return 0
  */
-int sum_them_all(const unsigned int n, ...)
-{
-	va_list valist;
-	unsigned int i;
-	int sum = 0;
 
-	if (n == 0)
-		return (0);
-	va_start(valist, n);
+int sum_them_all(const unsigned int n, ...);
+{
+	va_list ap;
+	unsigned int i, sum = 0;
+
+	va_start(ap, n);
+
 	for (i = 0; i < n; i++)
-		sum += va_rg(valist, int);
-	va_end(valist);
+		sum += va_rg(ap, int);
+	va_end(ap);
 
 	return (sum);
 }
